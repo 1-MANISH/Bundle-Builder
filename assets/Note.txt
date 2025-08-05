@@ -1,0 +1,37 @@
+
+                                        <div class="productCard" data-title="Tie-Dye Lounge Set" data-price="150">
+                                              <div class="productImage">
+                                                        <img 
+                                                                src="assets/images/product-image-1.jpg"
+                                                                alt="Tie-Dye Lounge Set"
+                                                        />
+                                              </div>
+                                                <h4>Tie-Dye Lounge Set</h4>
+                                                <p>$150.00</p>
+                                                <button class="addToBundleBtn"
+                                                        <span class="addToBundleText">Add to Bundle</span>
+                                                       <object type="image/svg+xml" data="assets/icons/Plus.svg" width="24" height="24"></object>
+                                                </button>
+                                        </div>
+
+
+
+                                           <div class="selectItem">
+                                                        <div class="itemImage">
+                                                                <!-- <img src="assets/images/product-image-1.jpg" alt="Tie-Dye Lounge Set"> -->
+                                                        </div>
+                                                        <div class="itemDetails">
+                                                                <!-- <h4>Tie-Dye Lounge Set</h4>
+                                                                <p>$150</p>
+                                                                <div class="addDelete">
+                                                                        <div class="add">
+                                                                                <button>-</button>
+                                                                                <span>1</span>
+                                                                                <button>+</button>
+                                                                        </div>
+                                                                        <div class="delete">
+                                                                                <object type="image/svg+xml" data="assets/icons/deleteIcon.svg" width="24" height="24" class="deleteIcon"></object>
+                                                                        </div>
+                                                                </div> -->
+                                                        </div>
+                                                </div>

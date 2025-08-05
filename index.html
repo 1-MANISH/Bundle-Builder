@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+     
+        <title>Coding Assesment L2 </title>
+
+</head>
+
+<body>
+
+        <div
+                class="container"
+        >
+
+                <div class="categoryContainer">
+
+                        <h1 class="categoryHeading">
+                                Buy 3 and Save 30%
+                        </h1>
+
+                        <div class="categoryContentGrid">
+                                <div class="productGrid" id="productGrid">
+
+                                </div>
+                                <div class="sidebar">
+                                        <h3>Create a Bundle</h3>
+                                        <p>Add at <strong> least 3</strong> products and <strong>Save 30%</strong>.</p>
+                                        <div class="progress">
+                                                <div class="bar">
+                                                        <div class="fill" id="progressFill">
+                                                                
+                                                        </div>
+                                                 </div>
+                                                   <span id="progressText">0/3 items</span>
+                                        </div>
+                                        <div class="selectedItems" id="selectedItems">
+                                              
+                                        </div>
+                                        <div class="pricing">
+                                              <div class="discountDiv">
+                                                  <p>Discount </p>
+                                                  <span id="discount">$ 0.00</span>
+                                              </div>
+                                               <div class="subTotalDiv">
+                                                 <p>Subtotal</p>
+                                                 <span id="subtotal">$0.00</span>
+                                               </div>
+                                        </div>
+                                        <button class="checkoutBtn" id="checkoutBtn" onclick="checkout()" >
+                                                   <span class="addToBundleText">Add 3 Items to Proceed</span>
+                                                <object type="image/svg+xml" data="assets/icons/CaretRight.svg" width="20" height="20"></object>
+                                        </button>
+                                        <div class="message" id="message">
+                                               
+                                                
+                                        </div>
+                                </div>
+                        </div>
+
+                </div>
+
+        </div>
+   
+        <script src="./script.js"></script>
+</body>
+
+</html>
